@@ -136,7 +136,7 @@ Return your complete findings as a JSON object.`;
       tools,
       tool_choice: iterations < 3 ? 'auto' : 'auto', // Let the model decide
       temperature: 0.4,
-      max_tokens: 16000,
+      max_completion_tokens: 16000,
     });
 
     const choice = response.choices[0];
