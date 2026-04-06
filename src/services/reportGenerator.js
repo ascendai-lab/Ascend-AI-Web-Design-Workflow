@@ -62,7 +62,7 @@ function buildReportMarkdown(research, client) {
 
 ## Executive Summary
 
-${research.executiveSummary || 'A comprehensive analysis of the client's market position, competitive landscape, and strategic opportunities for their new website.'}
+${research.executiveSummary || "A comprehensive analysis of the client's market position, competitive landscape, and strategic opportunities for their new website."}
 
 ---
 
